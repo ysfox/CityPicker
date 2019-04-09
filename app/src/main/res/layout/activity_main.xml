@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <ListView
+        android:id="@+id/lv_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+    <TextView
+        android:id="@+id/tv_word"
+        android:visibility="gone"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:textSize="30sp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="A"
+        android:textColor="#000000"
+        android:background="#44000000"/>
+
+    <site.qinyong.citypicker.IndexView
+        android:id="@+id/iv_words"
+        android:layout_alignParentRight="true"
+        android:background="#ff0000"
+        android:layout_height="match_parent"
+        android:layout_width="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+</RelativeLayout>
